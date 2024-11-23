@@ -38,6 +38,9 @@ void setup() {
   lcd.print("S1: EMP, s2: EMP");
   lcd.setCursor(0, 1);
   lcd.print("S3: EMP");
+  digitalWrite(A4, HIGH);
+  digitalWrite(A1, HIGH);
+  digitalWrite(9, HIGH);
 }
 
 void loop() {
