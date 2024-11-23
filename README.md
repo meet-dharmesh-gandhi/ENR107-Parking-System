@@ -1,7 +1,4 @@
 # ENR107-Parking-System
- 
-Parking Sensor System with LCD Display
-======================================
 
 Overview
 --------
