@@ -44,30 +44,6 @@ void setup() {
 }
 
 void loop() {
-  // Get the time in milliseconds since the last reset.
-  // int time = millis();
-
-  // If 800 milliseconds have passed since we last updated
-  // the text on the screen, print the next line of the
-  // lyrics on the screen.
-  // if ((time  - lastUpdate) >= 1000)
-  // {
-  //   // Move the cursor back to the first column of the first row.
-  //   lcd.setCursor(0, 0);
-
-  //   cnt1++;
-  //   cnt2++;
-  //   cnt3++;
-
-  //   // increase the time in each parking by 1
-  //   lcd.clear();
-  //   lcd.print("S1: " + String(cnt1) + ", S2: " + String(cnt2));
-  //   lcd.setCursor(0, 1);
-  //   lcd.print("S3: " + String(cnt3));
-
-  //   lastUpdate = time;
-  // }
-
   if (isIR(IR1, LOW, s1, "FIL")) {
     setS1(G1, R1, LOW, HIGH, "FIL", s2, s3);
   } else if (isIR(IR1, HIGH, s1, "EMP")) {
